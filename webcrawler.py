@@ -1,3 +1,9 @@
+#Versão: 1.0
+#Autor: Awdrix
+#Contato: Discord - awdrix
+#GitHub: https://github.com/ClippsComunnity/LinkCrawler
+#linkedin https://www.linkedin.com/in/adrielmcroberts/
+
 import sys
 import requests
 from bs4 import BeautifulSoup
