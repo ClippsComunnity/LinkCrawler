@@ -1,3 +1,4 @@
+#LinkCrawler
 #Versão: 1.0
 #Autor: Awdrix
 #Contato: Discord - awdrix
@@ -8,6 +9,7 @@ import sys
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
+
 def banner():
     ascii_art = """
     __    _       __   ______                    __         
