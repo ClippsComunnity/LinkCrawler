@@ -2,7 +2,7 @@
 #Autor: Awdrix
 #Contato: Discord - awdrix
 #GitHub: https://github.com/ClippsComunnity/LinkCrawler
-#linkedin https://www.linkedin.com/in/adrielmcroberts/
+#linkedin: https://www.linkedin.com/in/adrielmcroberts/
 
 import sys
 import requests
@@ -24,8 +24,6 @@ def main():
     if len(sys.argv) != 2:
         print("Uso: python linkcrawler.py [URL]")
         return
-    base_url = 'http://businesscorp.com.br'
-    base_url = 'http://rh.businesscorp.com.br'
 
     #Coleta a url inserida pelo usuario 
     base_url = sys.argv[1]
